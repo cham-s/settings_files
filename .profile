@@ -29,7 +29,8 @@ export COLOR_LIGHT_GRAY='\e[0;37m'
 PATH="/Library/Frameworks/Python.framework/Versions/3.4/bin:${PATH}"
 export PATH
 
-#bunch if alias
+#bunch of aliases
+
 #git
 alias gs='git status '
 alias ga='git add '
@@ -50,7 +51,7 @@ export PS1="\u@\h \w \[$txtcyn\]\$git_branch\[$txtred\]\$git_dirty\[$txtrst\]\$ 
 export SUDO_PS1="\[$bakred\]\u@\h\[$txtrst\] \w\$ "
 
 
-system
+# system
 alias l='ls -l'
 #ip
 alias mpip='curl ifconfig.me'
